@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<body>
+Hi,<p/>
+
+Below are the details of the contacted person<br/>
+<br/>
+Firstname: <font style="color:blue">${firstName}</font><br/>
+Lastname: <font style="color:blue">${lastname}</font><br/>
+Company: <font style="color:blue">${company}</font><br/>
+Business phone: <font style="color:blue">${business_phone}</font><br/>
+Mobile phone: <font style="color:blue">${mobile_phone}</font><br/>
+Email: <font style="color:blue">${email}</font><br/>
+Address: <font style="color:blue">${address}</font><br/>
+City: <font style="color:blue">${city}</font><br/>
+State: <font style="color:blue">${state}</font><br/>
+Zipcode: <font style="color:blue">${zip}</font><br/>
+#if ($ws_cgun == "")
+Caulk gun: <font style="color:blue"> </font><br/>
+#elseif ($ws_cgun!="")
+Caulk gun: <font style="color:blue">${ws_cgun}</font><br/>
+Becoming Distributor: <font style="color:blue">${becoming_distributor}</font><br/>
+Comments: <font style="color:blue">${comments}</font><br/>
+
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+/*-------------------------------------------------------------------------------------- 
+ * ! Admin template main css file
+ * @author			Vinith.G
+ * PIN          	
+ * Base Product      
+ * Domain name      
+ * @company         AJ Square Inc (www.ajsquare.com)
+ * See copyright notices and details.
+ --------------------------------------------------------------------------------------*/
+body {
+	/* background:#f6f6f6 url(../images/header.png) repeat-x; */
+	/* background: -webkit-gradient(top, #ffffff, #bcbec0) url(../images/header.png) repeat-x; */
+	/* background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FCFCFC), color-stop(1, #F5F5F5)); */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #d9d9d9));
+	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #d9d9d9 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #d9d9d9 100%);
+}
